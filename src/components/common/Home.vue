@@ -1,8 +1,8 @@
 <template>
     <div class="wrapper" id="home">
         <canvas id="canvas" class="canvas"></canvas>
-        <v-head></v-head>
-        <v-sidebar></v-sidebar>
+        <vHead/>
+        <vSidebar/>
         <div class="content" id="content">
             <transition name="move" mode="out-in"><router-view></router-view></transition>
         </div>
@@ -182,3 +182,14 @@
 	}
     }
 </script>
+<style   lang="less" scoped>
+.wrapper{
+	.header{
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+	}
+}
+</style>

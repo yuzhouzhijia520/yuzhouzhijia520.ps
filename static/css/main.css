@@ -155,3 +155,9 @@ a {
 .editor-btn {
     margin-top: 20px;
 }
+.el-breadcrumb__item__inner, .el-breadcrumb__item__inner a{
+    color: #fff !important;
+}
+.el-form-item__label{
+    color: #fff !important;
+}
