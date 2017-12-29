@@ -37,7 +37,7 @@
         }
     }
 </script>
-<style scoped>
+<style lang="less">
     .header {
         position: relative;
         box-sizing: border-box;
@@ -76,5 +76,13 @@
     }
     .el-dropdown-menu__item{
         text-align: center;
+    }
+    .el-dropdown-menu{
+            background-color: transparent;
+            border-image: linear-gradient( #00ff1f , #a903bb) 10 20;
+            .el-dropdown-menu__item:not(.is-disabled):hover{
+                    background-color: transparent;
+                    color: #fff;
+            }
     }
 </style>

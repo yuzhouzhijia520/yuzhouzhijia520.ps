@@ -70,3 +70,22 @@
     }
   }
 </script>
+
+<style  lang="less">
+.iform{
+  .el-form{
+    .el-form-item{
+      .el-form-item__content{
+        button{
+              background-color: transparent;
+              border-image: linear-gradient( #00ff1f , #a903bb) 10 20;
+              span{
+                    color: aliceblue;
+              }
+        }
+      }
+    }
+  }
+}
+
+</style>

@@ -98,8 +98,8 @@
     }
 </script>
 
-<style scoped >
-    .sidebar{
+<style lang="less"  >
+    .sidebar{ 
         display: block;
         position: absolute;
         width: 250px;
@@ -109,6 +109,11 @@
     }
     .sidebar > ul {
         height:100%;
+        .el-menu{
+
+                   background-color: transparent !important;
+
+            }
     }
     ul.el-menu.el-menu-vertical-demo.el-menu--dark{
         background-color: transparent !important;

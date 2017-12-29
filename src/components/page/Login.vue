@@ -103,7 +103,7 @@ import Meteor   from '../../../static/js/Meteor'
     }
 </script>
 
-<style scoped>
+<style lang="less">
 #menu {
 	height: 100%;
 	overflow: hidden;
@@ -141,5 +141,6 @@ import Meteor   from '../../../static/js/Meteor'
     .login-btn button{
         width:100%;
         height:36px;
+        background-image: linear-gradient(to left, #1ed02c, #435bff);
     }
 </style>

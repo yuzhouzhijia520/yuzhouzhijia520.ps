@@ -33,6 +33,7 @@ D3并非一个旨在涵盖所有功能特征的整体框架，相反，D3解决�
                <h2>NotesDomin（比较古老）</h2>
                <h3>d3+canvas+svg简介</h3>
                <h3>d3.js(v3,v4)全套教程</h3>
+               <h3>three.js全套教程</h3>
                <h3>Markdown编辑器</h3>
                <h3>JavaScript高级程序</h3>
                <h3>Http权威指南</h3>
