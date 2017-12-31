@@ -8,7 +8,7 @@
         </div>
 		<audio class="backgroundMusic" loop="-1" controls="controls" autoplay="autoplay">
 
-  			<source src="http://sc1.111ttt.cn:8282/2016/1/12m/10/205102010026.m4a?tflag=1514703964&pin=a69c4aa565648910a4130d43c9018c97&ip=14.25.84.128#.mp3" type="audio/mp3" />
+  			<source src="http://sc1.111ttt.cn/97301815582.mp3" type="audio/mp3" />
 
 		</audio>
     </div>
