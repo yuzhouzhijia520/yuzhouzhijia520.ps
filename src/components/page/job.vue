@@ -118,6 +118,27 @@
                     <li><a href="https://github.com/yuzhouzhijia520">自行学习各种跨域知识，并在部门例会公开讲解分享（内容待整理发布）</a></li>
                 </ul>    
             </div>
+            <div class="post">
+                <a href="#post" data-scroll class="noLine"><h3 id="post">沙龙</h3></a>
+                <hr>
+                <ul>
+                    <li>
+                        <a href="#post" data-scroll class="noLine"><h4 id="post">华为云沙龙</h4></a>
+                        <p class="date">2017年1月</p>
+                        <ul>
+                            <li>参与华为云沙龙学习</li>
+                        </ul> 
+                    <li>
+                        <a href="#post" data-scroll class="noLine"><h4 id="post">腾讯云沙龙</h4></a>
+                        <p class="date">2017年11月</p>
+                        <ul>
+                            <li>参与腾讯云沙龙学习</li>
+                        </ul>
+                    </li>
+                    <div class="notes">1、行业巨头动向及时参与学习了解一是为了个人技术跟上时代，二是面临信息时代，需要学的太多了，需要选择什么需要针对学习，什么需要了解性学习</div>
+                    <div class="notes">2、个人关注亚马逊云、微软云、阿里云、腾讯云、华为云以及chinaw3c</div>
+                </ul>    
+            </div>
             <div class="canDo">
                 <a href="#canDo" data-scroll class="noLine"><h3 id="canDo">技术储备</h3></a>
                 <hr>
@@ -171,6 +192,9 @@
 
  <style lang="less" scoped>
         .wrapper{
+            .notes{
+                font-size: 10px;
+            }
             .content{
                 .container{
                         .skill{
