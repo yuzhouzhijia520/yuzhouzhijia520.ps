@@ -83,6 +83,20 @@
                     color: aliceblue;
               }
         }
+        .el-checkbox-group{
+          .el-checkbox{
+            .el-checkbox__label{
+              color:#fff;
+            }
+          }
+        }
+        .el-radio-group{
+          .el-radio{
+            .el-radio__label{
+              color:#fff;
+            }
+          }
+        }
       }
     }
   }

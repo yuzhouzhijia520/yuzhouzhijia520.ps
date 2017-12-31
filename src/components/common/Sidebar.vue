@@ -86,6 +86,11 @@
                         icon: 'el-icon-upload2',
                         index: 'myBlog',
                         title: 'myBlog'
+                    },
+                    {
+                        icon: 'el-icon-upload2',
+                        index: 'job',
+                        title: 'job'
                     }
                 ]
             }

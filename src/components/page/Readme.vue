@@ -38,20 +38,23 @@ D3并非一个旨在涵盖所有功能特征的整体框架，相反，D3解决�
                <h3>JavaScript高级程序</h3>
                <h3>Http权威指南</h3>
                <h3>Http2.0</h3>
-               <h2>界面优化中...</h2>
+               <h2>内容整理中，界面优化中...</h2>
                <h6> 联系：songsongs520@163.com（有好的材料或日志可发送至该邮箱一起共享，交流）</h6>
                 <br>
             </article>
         </div>
-
     </div>
 </template>
 
 <script>
     export default {
         data: function(){
-            return {}
+            return {
+                dataa:''
+            }
         }
+    }
+</script>
     }
 </script>
 

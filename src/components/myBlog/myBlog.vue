@@ -3,11 +3,11 @@
           <el-collapse v-model="activeName" accordion>
             <el-collapse-item class="item titleBlog" title="MyBlog 'Markown-it' Test" name="1">
                 <p id="PSmarkdownText"></p>
-                <div>{{PSmarkdownText}}</div>
+                <div v-html='PSmarkdownText'></div>
                 <div>在界面中一致：所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。</div>
             </el-collapse-item>
              <el-collapse-item class="titleBlog" title="MyBlog 'babel-polyfill'" name="2">
-                <div>{{PSmarkdownText}}</div>
+                <div v-html='PSmarkdownText'></div>
                 <div>https://babeljs.io/docs/usage/polyfill/</div>
             </el-collapse-item>
         </el-collapse>
@@ -16,6 +16,7 @@
 </template>
 
 <script>
+import marked from 'marked';
   export default {
     data() {
       return {
@@ -25,15 +26,7 @@
     },
     mounted(){
         let _this=this;
-        let MarkdownIt = require('markdown-it');
-        let   md = new MarkdownIt();
-            _this.PSmarkdownText = md.render('# markdown-it rulezz!');
-            let mar=document.getElementById('PSmarkdownText');
-           // mar.innerHtml=md.render('# markdown-it rulezz!');
-           mar.innerHtml="<strong>设置标签的html内容</strong>";
-    },
-    methods: {
-        
+            _this.PSmarkdownText = marked('# markdown-it rulezz!');
     }
   }
 </script>

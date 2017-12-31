@@ -90,7 +90,6 @@ Content in the first column | Content in the second column
             }
         },
         mounted(){
-            debugger
             let _this=this;
             _this.getMarkdownss();
           
