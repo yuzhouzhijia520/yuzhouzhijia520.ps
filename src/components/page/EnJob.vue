@@ -38,15 +38,15 @@
                 <a href="#done" data-scroll class="noLine"><h3 id="done">Honour</h3></a>
                 <hr>
                 <p class="date">2015.12</p>
-                <ul><li>华为OA系统总裁嘉奖令（团队奖）</li>
+                <ul><li>president Award of HUAWEI OA system（Team award）</li>
                 </ul>
             </div>
             <div class="trainee">
-                <a href="#done" data-scroll class="noLine"><h3 id="done">Internship Experience <span class="company">(长沙公安信息系统)</span></h3></a>
+                <a href="#done" data-scroll class="noLine"><h3 id="done">Internship Experience <span class="company">(the system of Changsha that public security information)</span></h3></a>
                 <hr>
                 <p class="date">2014.9 -- 2014.12</p>
                 <ul>
-                    <li>技术导师带领开发。长沙公安信息系统前台UI展示界面设计及后端信息交互开发</li>
+                    <li>Technical tutors lead the development. The design of the UI display interface of the front desk of Changsha public security information system and the interactive development of the back-end data.</li>
                     <li>Related Skills：html、jsp、jquery、js、css、sql</li>
                 </ul>
             </div>
@@ -56,12 +56,12 @@
                 <p class="date">DATE TIME：2015</p>
                 <ul>
                     <li>Name：Team Management of Scrum </li>
-                    <li>Content：华为敏捷教练带领学习敏捷开发团队管理与能力建设</li>
+                    <li>Content：the leader of  HUAWEI  that leads  the learning of scrum development team management and capacity building .</li>
                 </ul>
                 <p class="date">DATE TIME：2015</p>
                 <ul>
                     <li>Name：Combat Training of CMMI</li>
-                    <li>Content：华为教练带领学习对软件工程过程进行管理和改进，增强开发与改进能力，从而能按时地、不超预算地开发出高质量的软件。</li>
+                    <li>Content：the leader of HUAWEI  that the study to manage and improve the software engineering process, enhance the ability of development and improvement, so that we can develop high-quality software on time and without budget.</li>
                 </ul>
                 <p class="date">DATE TIME：2016</p>
                 <ul>
@@ -76,25 +76,25 @@
                 <p>Industry Category：Computer Software</p>
                 <p>Job Name：The Project Management And Developer</p>
                 <ul>
-                    <li>1、OA项目经理，负责管理华为技术有限公司内容电子流（总计600+BS电子流）200+各系统需求管理、评审、交付以及部分开发、问题处理等（IPD领域、MBS领域、Fin领域）；</li>
-                    <li>2、管理经验丰富，带过一个大项目（1800+人天）、5+一般的项目（100+人天）、100+小项目、自行开发10+项目优化</li>
-                    <li>3、团队整体风险把控与轻重事情妥当安排；</li>
-                    <li>4、熟悉华为项目流程，管理流程，IPD流程；</li>
+                    <li>1、OA Project Manager，Responsible for the management of HUAWEI Technology Co., Ltd. content electronic flow (total 600+BS electronic flow) 200+, system requirements management, review, delivery and partial development, problem solving, etc. (IPD field, MBS field, Fin field).；</li>
+                    <li>2、Rich experience in management, with a big project（One thousand and eight hundred of the More than days）、More than Five common projects（onehundred of the More than days）、More than 100 small projects、More than ten of myself development </li>
+                    <li>3、The overall risk of the team is to arrange the control and the light and heavy things properly.</li>
+                    <li>4、Familiar with the HUAWEI project process, management process, IPD process;</li>
                     <li>Related Skills：Lotus Notesdomino、LotusScript、java、html、jquery、js、css、document database;</li>
                 </ul>
                 <p class="date">2015.12 -- 2016.6</p>
                 <p>Industry Category：Computer Software</p>
                 <p>Job Name：System Reconfiguration</p>
                 <ul>
-                    <li>1、参与架构研发与整体重构规划，流程引擎设计，前端架构设计等模块</li>
-                    <li>2、独立采用研发完成的架构进行重构华为电子流</li>
+                    <li>1、Participates in the modules of architecture R & D and overall reconstruction planning, process engine design, the design of Framework that web develop .etc</li>
+                    <li>2、Reconstructing HUAWEI electronic stream independently using the Framework completed the electronic stream.</li>
                     <li>Related Skills：java、oracle、html、jquery、bootstrap、js、css</li>
                 </ul>
                 <p class="date">2015.6 -- Now</p>
                 <p>Industry Category：Computer Software</p>
                 <p>Job Name：Web Developer</p>
                 <ul>
-                    <li>1、公共SaaS构建器控制台以及资产市场按UCD提供的界面进行前端开发工作与各个微服务模块进行服务联调等</li>
+                    <li>1、The public SaaS  the console and the asset market of appbuilder cloud are based on the interface provided by UCD to carry out the work of web development  and the service of each micro service module.</li>
                     <li>2、Introduce common components：component vue-lazyload，Parser of Markdown，xss, etc</li>
                     <li>Related Skills：
                         <br>
@@ -112,10 +112,10 @@
                 <a href="#post" data-scroll class="noLine"><h3 id="post">Technical Article</h3></a>
                 <hr>
                 <ul>
-                    <li><a href="https://github.com/yuzhouzhijia520">简单学习d3js（内容待整理发布）</a></li>
+                    <li><a href="https://github.com/yuzhouzhijia520">Simple learning the d3.js（Content to be arranged and released）</a></li>
                 </ul>
                 <ul>
-                    <li><a href="https://github.com/yuzhouzhijia520">自行学习各种跨域知识，并在部门例会公开讲解分享（内容待整理发布）</a></li>
+                    <li><a href="https://github.com/yuzhouzhijia520">Learn a variety of cross domain knowledge by yourself and explain and share in the Department's regular meetings（Content to be arranged and released）</a></li>
                 </ul>    
             </div>
             <div class="post">
@@ -135,22 +135,22 @@
                             <li>Participated in Tencent Cloud salon study.</li>
                         </ul>
                     </li>
-                    <div class="notes">1、行业巨头动向及时参与学习了解一是为了个人技术跟上时代，二是面临信息时代，需要学的太多了，需要选择什么需要针对学习，什么需要了解性学习</div>
-                    <div class="notes">2、个人关注亚马逊云、微软云、阿里云、腾讯云、华为云以及chinaw3c</div>
+                    <div class="notes">1、Industry giants move to participate in learning in a timely manner. One is to keep up with the times for personal technology. The two is facing the information age. We can't finish all knowledge. We think of we are need to choose learn or know.</div>
+                    <div class="notes">2、Personal concerns about Amazon cloud, Microsoft cloud , Ali cloud, Tencent cloud, HuaWei cloud</div>
                 </ul>    
             </div>
             <div class="canDo">
                 <a href="#canDo" data-scroll class="noLine"><h3 id="canDo">SKILLS</h3></a>
                 <hr>
                 <ul>
-                    <li v-for='(item,index) in ability' v-html='item'></li>
+                    <li v-for='item in ability' v-html='item'></li>
                 </ul>
             </div>
             <div class="selfIntro">
                 <a href="#selfIntro" data-scroll class="noLine"><h3 id="selfIntro">Self-evaluation</h3></a>
                 <hr>
                 <ul>
-                    <li v-for='(item,index) in appraise' v-html='item'></li>
+                    <li v-for='item in appraise' v-html='item'></li>
                 </ul>
             </div>
             <div class="thx">
@@ -169,18 +169,18 @@
         data: function(){
             return {
                 ability:[
-                    '拥有丰富的开发和管理经验;',
-                    '能使用Webpack实现项目自动化构建和模块化;',
-                    '掌握HTML5/CSS3新特性，以及CSS预处理less，可以独立完成网站PC端开发;',
-                    '熟悉Vue.js、jq、bootstrap框架;',
-                    '了解后端语言java、oracle、mysql、UML数据建模、axure界面设计、document database。',
+                    'Rich experience in development and management;',
+                    'I am able to Use the webpack that realizing the construction and modularization of project automation;',
+                    'I was commanded of New features that the HTML5 and the CSS3,And CSS preprocessing less,the PC side of the web site can be developed independently;',
+                    'I was familiar with the Framework that such as Vue.js、jq、bootstrap .etc ;',
+                    'I understanded back-end language that such as java、oracle、mysql、data modeling with the UML language、axure 、document database .etc',
                 ],
                 appraise:[
-                    '吃苦耐劳，有强烈的敬业精神和团队协作精神，能够承受一定的压力，能迅速的适应各种环境;',
-                    '有较强的自学能力，喜欢追逐前沿技术，经常浏览知乎、SegmentFault、github、简书、CSDN、w3C、开源中国、MDN等网站进行学习;',
-                    '乐于与他人交流、分享自学知识、提升个人能力、完善自我;',
-                    '正在自学JavaScript高级程序(理论知识);',
-                    '业余爱好喜欢看《欲望心理学》、《休闲与生活质量》、《时间的形状》;'
+                    'Work hard,dedicate myself to workl, cooperate with others well when working,keep consistent faimess in high-pressure environment.',
+                    'Have strong ability to study independently,like to explore advanced technologies,and visit some professional websites to study them,such as SegmentFault,Github,CSDN,w3C,MDN,ZHIHU,JIANSHU KAIYUANZHONGGUO.',
+                    'Like to share thoughts and learning by communicating with others,by that,I imporove my skills.',
+                    'I am studying JAVAScript by myself;(of theoretical knowledge)',
+                    'I also like to read some books when I am free,such as 《Desire psychology》、《Leisure and quality of life》、《The Shape of Time》;'
 
                 ]
             }

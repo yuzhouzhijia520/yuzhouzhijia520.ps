@@ -136,21 +136,21 @@
                         </ul>
                     </li>
                     <div class="notes">1、行业巨头动向及时参与学习了解一是为了个人技术跟上时代，二是面临信息时代，需要学的太多了，需要选择什么需要针对学习，什么需要了解性学习</div>
-                    <div class="notes">2、个人关注亚马逊云、微软云、阿里云、腾讯云、华为云以及chinaw3c</div>
+                    <div class="notes">2、个人关注亚马逊云、微软云、阿里云、腾讯云、华为云</div>
                 </ul>    
             </div>
             <div class="canDo">
                 <a href="#canDo" data-scroll class="noLine"><h3 id="canDo">技术储备</h3></a>
                 <hr>
                 <ul>
-                    <li v-for='(item,index) in ability' v-html='item'></li>
+                    <li v-for='item in ability' v-html='item'></li>
                 </ul>
             </div>
             <div class="selfIntro">
                 <a href="#selfIntro" data-scroll class="noLine"><h3 id="selfIntro">自我评价</h3></a>
                 <hr>
                 <ul>
-                    <li v-for='(item,index) in appraise' v-html='item'></li>
+                    <li v-for='item in appraise' v-html='item'></li>
                 </ul>
             </div>
             <div class="thx">
