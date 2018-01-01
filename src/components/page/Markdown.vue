@@ -7,8 +7,7 @@
             </el-breadcrumb>
         </div>
         <div class="plugins-tips">
-            Vue-SimpleMDE：Vue.js的Markdown Editor组件。
-            访问地址：<a href="https://github.com/F-loat/vue-simplemde" target="_blank">Vue-SimpleMDE</a>
+           Markdown文件解析测试
         </div>
         <div class="plugins-tips">
            <div class="plugins-content" v-html='mdContent'>
