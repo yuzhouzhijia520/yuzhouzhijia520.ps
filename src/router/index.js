@@ -58,6 +58,10 @@ export default new Router({
                 {
                     path: '/job',
                     component: resolve => require(['../components/page/job.vue'], resolve) // 我的日志
+                },
+                {
+                    path: '/EnJob',
+                    component: resolve => require(['../components/page/EnJob.vue'], resolve) // 我的日志
                 }
 
             ]

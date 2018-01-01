@@ -91,6 +91,11 @@
                         icon: 'el-icon-upload2',
                         index: 'job',
                         title: 'job'
+                    },
+                    {
+                        icon: 'el-icon-upload2',
+                        index: 'EnJob',
+                        title: 'EnJob'
                     }
                 ]
             }
