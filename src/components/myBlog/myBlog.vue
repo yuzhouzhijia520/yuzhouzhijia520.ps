@@ -1,14 +1,12 @@
 <template>
     <div class="myBlog">
           <el-collapse v-model="activeName" accordion>
-            <el-collapse-item class="item titleBlog" title="MyBlog 'Markown-it' Test" name="1">
+            <el-collapse-item class="item titleBlog" title="1、前端知识体系汇总" name="1">
                 <p id="PSmarkdownText"></p>
-                <div v-html='PSmarkdownText'></div>
-                <div>在界面中一致：所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。</div>
+                <div v-html='PSmarkdownText1' class='markdown-body'></div>
             </el-collapse-item>
-             <el-collapse-item class="titleBlog" title="MyBlog 'babel-polyfill'" name="2">
-                <div v-html='PSmarkdownText'></div>
-                <div>https://babeljs.io/docs/usage/polyfill/</div>
+             <el-collapse-item class="titleBlog" title="2、Blog" name="2">
+                <div v-html='PSmarkdownText2' class='markdown-body'></div>
             </el-collapse-item>
         </el-collapse>
 
@@ -16,17 +14,26 @@
 </template>
 
 <script>
-import marked from 'marked';
+    import '../page/styles/styles.css';
+    import marked from '../../../static/marked/marked.js';
   export default {
     data() {
       return {
           activeName: '1',
-          PSmarkdownText:"songsongs is blog"
+          PSmarkdownText1:"",
+          PSmarkdownText2:""
       }
+    },
+    methods(){
     },
     mounted(){
         let _this=this;
-            _this.PSmarkdownText = marked('# markdown-it rulezz!');
+        $.get('../../../static/marked/markdown/BlogWeb1.md').done((res)=>{
+                    _this.PSmarkdownText1 = marked(res);
+        });
+        $.get('../../../static/marked/markdown/BlogWeb2.md').done((res)=>{
+                    _this.PSmarkdownText2 = marked(res);
+        });   
     }
   }
 </script>

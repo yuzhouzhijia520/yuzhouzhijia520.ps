@@ -37,8 +37,8 @@
         methods:{
             getMarkdownss(){
                 let _this=this;
-                $.get('../../../static/marked/README.md').done((data)=>{
-                    _this.mdContent=marked(data);
+                $.get('../../../static/marked/markdown/README.md').done((res)=>{
+                    _this.mdContent=marked(res);
                 });
             }
         },
