@@ -10,14 +10,15 @@
            Markdown文件解析测试
         </div>
         <div class="plugins-tips">
-           <div class="plugins-content" v-html='mdContent'>
+           <div class="plugins-content markdown-body" v-html='mdContent'>
            </div>
         </div>
     </div>
 </template>
 
 <script>
-    import marked from 'marked';
+    import './styles/styles.css';
+    import marked from '../../../static/marked/marked.js';
     export default {
         data: function(){
             return {
@@ -30,62 +31,15 @@
                         highlightingTheme: 'atom-one-light'
                     }
                 },
-                mdContent:`
-# MarkDown文件解析-2017-12-29-Blog #
-
-
-## 本地开发 ##
-
-	// 开启服务器，浏览器访问 http://localhost:8080
-	npm run dev
-
-## 构建生产 ##
-
-	// 执行构建命令，生成的dist文件夹放在服务器下即可访问
-	npm run build
-
-## Tables and alignment
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |`
+                mdContent:``
             }
         },
         methods:{
             getMarkdownss(){
-                debugger
-              let _this=this;
-            _this.mdContent=marked(`
-# MarkDown文件解析-2017-12-29-Blog #
-
-
-## 本地开发 ##
-
-	// 开启服务器，浏览器访问 http://localhost:8080
-	npm run dev
-
-## 构建生产 ##
-
-	// 执行构建命令，生成的dist文件夹放在服务器下即可访问
-	npm run build
-
-## Tables and alignment
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |`);
+                let _this=this;
+                $.get('../../../static/marked/README.md').done((data)=>{
+                    _this.mdContent=marked(data);
+                });
             }
         },
         mounted(){

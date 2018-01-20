@@ -171,7 +171,7 @@
                 ability:[
                     'Rich experience in development and management;',
                     'I am able to Use the webpack that realizing the construction and modularization of project automation;',
-                    'I was commanded of New features that the HTML5 and the CSS3,And CSS preprocessing less,the PC side of the web site can be developed independently;',
+                    'I was commanded of New features that the HTML5 and the CSS3,JS And CSS preprocessing less,the PC side of the web site can be developed independently;',
                     'I was familiar with the Framework that such as Vue.js、jq、bootstrap .etc ;',
                     'I understanded back-end language that such as java、oracle、mysql、data modeling with the UML language、axure 、document database .etc',
                 ],
@@ -179,7 +179,6 @@
                     'Work hard,dedicate myself to workl, cooperate with others well when working,keep consistent faimess in high-pressure environment.',
                     'Have strong ability to study independently,like to explore advanced technologies,and visit some professional websites to study them,such as SegmentFault,Github,CSDN,w3C,MDN,ZHIHU,JIANSHU KAIYUANZHONGGUO.',
                     'Like to share thoughts and learning by communicating with others,by that,I imporove my skills.',
-                    'I am studying JAVAScript by myself;(of theoretical knowledge)',
                     'I also like to read some books when I am free,such as 《Desire psychology》、《Leisure and quality of life》、《The Shape of Time》;'
 
                 ]

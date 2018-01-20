@@ -823,7 +823,7 @@
   };
   
   Renderer.prototype.table = function(header, body) {
-    return '<table>\n'
+    return '<table class="table table-hover table-striped table-bordered tables-condensed">\n'
       + '<thead>\n'
       + header
       + '</thead>\n'
