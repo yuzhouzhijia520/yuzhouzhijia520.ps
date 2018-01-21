@@ -806,7 +806,7 @@ mac移动端调试	|http://www.mihtool.com
 无线调试攻略	|http://thx.github.io/mobile/debugging-in-mobile
 无线调试攻略	|http://yanhaijing.com/mobile/2014/12/17/web-debug-for-mobile
 屌爆了,完美调试 微信webview(x5	|http://www.jianshu.com/p/ccf124f1f74b
-微信调试的那些事	微信调试的那些事
+微信调试的那些事	|http://liyaodong.com/2015/07/06/%E5%BE%AE%E4%BF%A1%E8%B0%83%E8%AF%95%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/
 远程console	|http://jsconsole.com
 微信调试工具	|http://blog.qqbrowser.cc
 各种真机远程调试方法汇总	|https://github.com/jieyou/remote_inspect_web_on_real_device
