@@ -3,6 +3,10 @@
         <canvas id="canvas" class="canvas"></canvas>
         <vHead/>
         <vSidebar/>
+		 <div id="tooplate_middle_content">
+      		<h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar sapien lorem volutpat quis lobortis et, iaculis in neque.</p>
+        </div>
         <div class="content" id="content">
             <transition name="move" mode="out-in"><router-view></router-view></transition>
         </div>

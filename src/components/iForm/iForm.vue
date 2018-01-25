@@ -79,24 +79,8 @@
         button{
               background-color: transparent;
               border-image: linear-gradient( #00ff1f , #a903bb) 10 20;
-              span{
-                    color: aliceblue;
-              }
         }
-        .el-checkbox-group{
-          .el-checkbox{
-            .el-checkbox__label{
-              color:#fff;
-            }
-          }
-        }
-        .el-radio-group{
-          .el-radio{
-            .el-radio__label{
-              color:#fff;
-            }
-          }
-        }
+        
       }
     }
   }

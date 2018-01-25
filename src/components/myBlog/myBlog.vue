@@ -52,8 +52,7 @@
             .el-collapse-item__wrap{
                 background-color: transparent;
                 border-bottom: 0;
-                .el-collapse-item__content{
-                    color: aliceblue;
+                .el-collapse-item__content{                    
                     border-radius: 50px;
                 }
             }

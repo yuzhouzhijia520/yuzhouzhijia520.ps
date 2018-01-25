@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <div class="logo">个人前端系统</div>
+        <div class="logo"><span class="logoTitle1">守望</span><span class="logoTitle2">幸福</span></div>
         <div class="user-info">
             <el-dropdown trigger="click" @command="handleCommand">
                 <span class="el-dropdown-link">
@@ -43,26 +43,29 @@
         box-sizing: border-box;
         width: 100%;
         height: 70px;
-        font-size: 22px;
         line-height: 70px;
-        color: #fff;
+        font-size: 67px;
+        margin-top: 32px;
     }
     .header .logo{
-        float: left;
-        width:250px;
         text-align: center;
+        .logoTitle1{
+            color: #B1B63D;
+        }
+        .logoTitle2{
+            color: #B95429;
+        }
     }
     .user-info {
         float: right;
         padding-right: 50px;
         font-size: 16px;
-        color: #fff;
+        margin-top: -90px;//.header {height:70px;margin-top:20px}=90px
     }
     .user-info .el-dropdown-link{
         position: relative;
         display: inline-block;
         padding-left: 50px;
-        color: #fff;
         cursor: pointer;
         vertical-align: middle;
     }
@@ -82,7 +85,6 @@
             border-image: linear-gradient( #00ff1f , #a903bb) 10 20;
             .el-dropdown-menu__item:not(.is-disabled):hover{
                     background-color: transparent;
-                    color: #fff;
             }
     }
 </style>

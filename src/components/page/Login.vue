@@ -120,7 +120,6 @@ import Meteor   from '../../../static/js/Meteor'
         margin-top: -230px;
         text-align: center;
         font-size:30px;
-        color: #fff;
 
     }
     .ms-login{
