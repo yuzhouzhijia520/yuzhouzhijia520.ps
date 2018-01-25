@@ -61,7 +61,7 @@ New Old Stock	|http://nos.twnsnd.co 复古风图库
 codepen	|http://codepen.io/
 摄图网	|http://699pic.com/
 常用的JavaScript代码片段	|http://microjs.com
-## 团队Blog|周报类
+## 团队Blog 周报类
 周报类	 | 地址
 ------------ | -------------
 奇舞周刊	|http://old.75team.com/weekly/
@@ -698,10 +698,7 @@ Proton 烟花	|http://a-jie.github.io/Proton/#example
 ## 简历模板
 简历模板|	地址
 ------------ | -------------
-简历	|http://hcy2367.github.io/resume
-张伦	|http://ncuey.sinaapp.com/CrispElite/
 简历	|https://github.com/hacke2/ResumeSample
-马斯特	|http://pinkyjie.com/resume
 张秋怡	|https://joyeecheung.github.io/resume/
 翁天信	|http://blog.dandyweng.com/2013/07/how-my-website-was-created
 动画方式的简历	|http://www.webhek.com/misc/interactive-resume
@@ -711,7 +708,6 @@ haorooms博客	|http://www.haorooms.com/about
 面试题	|地址
 ------------ | -------------
 那几个月在找工作（百度，网易游戏）	|http://www.nowcoder.com/discuss/3196
-2014最新面试题	|http://www.html-js.com/article/1743
 2016校招内推 -- 阿里巴巴前端 -- 三面面试经历	|http://www.cnblogs.com/imwtr/p/4685546.html
 年后跳槽那点事：乐视+金山+360面试之行	|http://www.cnblogs.com/lvdabao/p/3660707.html
 Interviewing a front-end developer	|http://blog.sourcing.io/interview-questions
@@ -719,7 +715,6 @@ Interviewing a front-end developer	|http://blog.sourcing.io/interview-questions
 前端面试	|http://www.cnblogs.com/allenxing/p/3724382.html
 Web开发笔试面试题 大全	|http://mianshiti.diandian.com
 前端开发面试题	|http://segmentfault.com/a/1190000000465431
-2014最新前端面试题	|https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions
 百度面试	|https://github.com/fex-team/interview-questions
 面试题	|http://www.w3cfuns.com/forum.php?mod=forumdisplay&fid=51&filter=typeid&typeid=177
 前端工作面试问题	|https://github.com/darcyclarke/Front-end-Developer-Interview-Questions/tree/master/Chinese
