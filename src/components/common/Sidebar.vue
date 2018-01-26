@@ -1,44 +1,14 @@
 <template>
     <div class="sidebar">
         <el-menu
- :default-active="onRoutes"
-  class="el-menu-demo"
-  mode="horizontal"
-  background-color="#545c64"
-  text-color="#fff"
-  active-text-color="#ffd04b"
-   unique-opened router>
-            <!-- <template v-for="item in items"> -->
-                <!-- <template v-if="item.subs">
-                    <el-submenu :index="item.index" class="menuitemP">
-                        <template slot="title"><i :class="item.icon"></i>{{ item.title }}</template>
-                        <el-menu-item v-for="(subItem,i) in item.subs" :key="i" :index="subItem.index" class="menuitemC">{{ subItem.title }}
-                        </el-menu-item>
-                    </el-submenu>
-                </template>
-                <template v-else>
-                    <el-menu-item :index="item.index">
-                        <i :class="item.icon"></i>{{ item.title }}
-                    </el-menu-item>
-                </template> -->
+            :default-active="onRoutes"
+            class="el-menu-demo"
+            mode="horizontal"
+            background-color="#545c64"
+            text-color="#fff"
+            active-text-color="#ffd04b"
+            unique-opened router>
                  <template v-for='item in items'>
-                <!-- <el-menu
-                :default-active="activeIndex2"
-                class="el-menu-demo"
-                mode="horizontal"
-                background-color="#545c64"
-                text-color="#fff"
-                active-text-color="#ffd04b">
-                <el-menu-item index="1">Home</el-menu-item> -->
-                <!-- <el-submenu :index="item.index">
-                    <template slot="title"><i :class="item.icon"></i>{{ item.title }}</template>
-                    <el-menu-item v-for="(subItem,i) in item.subs" :key="i" :index="subItem.index" class="menuitemC">{{ subItem.title }}</el-menu-item>
-                </el-submenu> -->
-                <!-- <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">Practice</a></el-menu-item>
-                <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">Work</a></el-menu-item>
-                <el-menu-item index="5"><a href="https://www.ele.me" target="_blank">Gallery</a></el-menu-item>
-                <el-menu-item index="6"><a href="https://www.ele.me" target="_blank">About</a></el-menu-item>
-                <el-menu-item index="7"><a href="https://www.ele.me" target="_blank">Contact</a></el-menu-item> -->
                 <template v-if="item.subs">
                     <el-submenu :index="item.index" class="menuitemP">
                         <template slot="title"><i :class="item.icon"></i>{{ item.title }}</template>
@@ -150,7 +120,6 @@
     .sidebar{ 
         display: block;
         position: absolute;
-        left: 25%;
         top: 130px;
         background: url(../../../static/img/tooplate_menu_bg.png) no-repeat;
         padding: 3px 39px;

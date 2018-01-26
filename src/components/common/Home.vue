@@ -3,13 +3,19 @@
         <canvas id="canvas" class="canvas"></canvas>
         <vHead/>
         <vSidebar/>
-		 <div id="tooplate_middle_content">
-      		<h1>Contact</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar sapien lorem volutpat quis lobortis et, iaculis in neque.</p>
-        </div>
         <div class="content" id="content">
             <transition name="move" mode="out-in"><router-view></router-view></transition>
         </div>
+	
+		<!-- <footer>
+			<p class="Disclaimer">pansheng.me 版权所有</p>
+			<p>
+				<a href="http://www.pansheng.me/#/job">关于我</a>
+				<a href="http://www.pansheng.me/#/job">联系我</a>
+				<a href="http://www.pansheng.me/#/job">帮助</a>
+			</p>
+			<p>Copyright © 2018</p>
+		</footer> -->
 		<audio class="backgroundMusic" loop="-1" controls="controls" autoplay="autoplay">
 
   			<source src="static/music/sola.mp3" type="audio/mp3" />
@@ -32,31 +38,12 @@
             vHead, vSidebar
         },
         mounted() {
-    //         var boDiv = document.getElementById("content");
-    //     boDiv.addEventListener("mousewheel",function(event) {
-    //     var evt = window.event || arguments[0]
-    //     var isIE = navigator.userAgent.indexOf('MSIE') !== -1
-
-    //     //屏蔽body滚动事件  
-    //     evt.returnValue = false
-
-    //     if (event.wheelDelta <= -120) { 
-    //       boDiv.scrollTop=boDiv.scrollTop+40
-    //     } else if (event.wheelDelta >= 120) {
-    //       boDiv.scrollTop=boDiv.scrollTop-40
-    //     }
-    //   })
 		var canvas = document.querySelector('canvas'),
 		ctx = canvas.getContext('2d')
 		canvas.width = window.innerWidth;
 		canvas.height = window.innerHeight;
 		ctx.lineWidth = .3;//线条宽度为0.3
 		ctx.strokeStyle = (new Color(150)).style;//透明度
-
-		// var mousePosition = {
-		// 	x: 30 * canvas.width / 100,
-		// 	y: 30 * canvas.height / 100
-		// };
 		var mousePosition = {
 			x:  canvas.width - 100,
 			y:  canvas.height - 60
