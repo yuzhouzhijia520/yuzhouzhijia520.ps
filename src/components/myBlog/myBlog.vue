@@ -5,8 +5,11 @@
                 <p id="PSmarkdownText"></p>
                 <div v-html='PSmarkdownText1' class='markdown-body'></div>
             </el-collapse-item>
-             <el-collapse-item class="titleBlog" title="2、Blog" name="2">
+            <el-collapse-item class="titleBlog" title="2、Blog" name="2">
                 <div v-html='PSmarkdownText2' class='markdown-body'></div>
+            </el-collapse-item>
+             <el-collapse-item class="titleBlog" title="3、个人服务器部署" name="3">
+                <div v-html='PSmarkdownText3' class='markdown-body'></div>
             </el-collapse-item>
         </el-collapse>
 
@@ -19,9 +22,10 @@
   export default {
     data() {
       return {
-          activeName: '1',
+          activeName: '3',
           PSmarkdownText1:"",
-          PSmarkdownText2:""
+          PSmarkdownText2:"",
+          PSmarkdownText3:""
       }
     },
     methods(){
@@ -33,7 +37,10 @@
         });
         $.get('../../../static/marked/markdown/BlogWeb2.md').done((res)=>{
                     _this.PSmarkdownText2 = marked(res);
-        });   
+        });  
+        $.get('../../../static/marked/markdown/BlogWeb3.md').done((res)=>{
+                    _this.PSmarkdownText3 = marked(res);
+        });  
     }
   }
 </script>

@@ -1,9 +1,9 @@
 <template>
     <div class="vuejob">
-        <h2 style="text-align: center" id="headline">潘圣的简历 <a href="http://www.pansheng.me#/job" class="none">(http://www.pansheng.me)</a></h2>
+        <h2 style="text-align: center" id="headline">COSMOS的简历 <a href="http://www.pansheng.me#/job" class="none">(http://www.pansheng.me)</a></h2>
         <div class="container">
             <div class="info">
-                <p><span class="left">姓名：</span><span>潘圣</span></p>
+                <p><span class="left">姓名：</span><span>COSMOS</span></p>
                 <p><span class="left">全日制：</span><span>湖南科技职业学院</span></p>
                 <p><span class="left">非全日制：</span><span>武汉理工大学</span></p>
                 <p><span class="left">微信：</span><span>宇宙黑暗天使</span></p>

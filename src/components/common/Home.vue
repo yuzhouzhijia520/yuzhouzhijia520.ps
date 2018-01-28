@@ -7,15 +7,15 @@
             <transition name="move" mode="out-in"><router-view></router-view></transition>
         </div>
 	
-		<!-- <footer>
-			<p class="Disclaimer">pansheng.me 版权所有</p>
+		<footer>
+			<p class="Disclaimer">pansheng.me 内容版权所有，同时保留所有权利。</p>
 			<p>
 				<a href="http://www.pansheng.me/#/job">关于我</a>
 				<a href="http://www.pansheng.me/#/job">联系我</a>
 				<a href="http://www.pansheng.me/#/job">帮助</a>
 			</p>
 			<p>Copyright © 2018</p>
-		</footer> -->
+		</footer>
 		<audio class="backgroundMusic" loop="-1" controls="controls" autoplay="autoplay">
 
   			<source src="static/music/sola.mp3" type="audio/mp3" />
@@ -194,7 +194,17 @@
 		bottom: 0;
 	}
 	.backgroundMusic{
-		    display: none;
+		display: none;
+	}
+	footer{
+		position: absolute;
+		color: #888;
+		padding: 40px 40px;
+		top: 1605px;
+		a{
+			color: #c6d407;
+		}
 	}
 }
+
 </style>
