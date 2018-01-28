@@ -1,6 +1,6 @@
 <template>
     <div class="header clearFloat">
-        <div class="logo"><span class="logoTitle1">守望</span><span class="logoTitle2">幸福</span></div>
+        <div class="logo"><span class="logoTitle1">Watch For </span><span class="logoTitle2">The Happies</span></div>
         <div class="user-info">
                     <el-dropdown trigger="click" @command="handleCommand">
                         <span class="el-dropdown-link">
@@ -37,8 +37,8 @@
         }
     }
 </script>
-	<style>
-	article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {  
+<style>
+article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {  
   display: block;  
 }
 
@@ -112,6 +112,10 @@ footer p {
 }
 	</style>
 <style lang="less">
+    @font-face{
+        font-family: 'FoglihtenFr02';
+        src : url('../../../static/fonts/FoglihtenFr02.otf');
+    }
     .clear{
         clear: both;
     }
@@ -136,6 +140,7 @@ footer p {
     }
     .header .logo{
         text-align: center;
+        font-family: 'FoglihtenFr02';
         .logoTitle1{
             color: #B1B63D;
         }
