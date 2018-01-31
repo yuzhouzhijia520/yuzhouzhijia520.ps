@@ -44,6 +44,7 @@ article, aside, figure, figcaption, footer, header, hgroup, nav, section, summar
 
 body {
   font: 300 13px/20px 'Open Sans', Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -133,7 +134,7 @@ footer p {
         position: relative;
         box-sizing: border-box;
         width: 100%;
-        height: 70px;
+        height: 96px;
         line-height: 70px;
         font-size: 67px;
         margin-top: 32px;
@@ -153,6 +154,7 @@ footer p {
         padding-right: 50px;
         font-size: 16px;
         margin-top: -90px;//.header {height:70px;margin-top:20px}=90px
+        margin-right: -38%;
     }
     .user-info .el-dropdown-link{
         position: relative;

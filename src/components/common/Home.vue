@@ -1,12 +1,22 @@
 <template>
     <div class="wrapper" id="home">
         <canvas id="canvas" class="canvas"></canvas>
-        <vHead/>
-        <vSidebar/>
-        <div class="content" id="content">
-            <transition name="move" mode="out-in"><router-view></router-view></transition>
-        </div>
-	
+        
+		<section class="main-content">
+			<div class="main-content-div">
+				<vHead/>
+				<div class="main-content-sw">
+					<vSidebar/>
+					<div class="wrapper-blog">
+							<h1>Blog</h1>
+							<p>If they are not to be more risk Ho Chek purple and orange Fast Blue Man ditch just loves green slope.</p>
+					</div>
+				</div>
+				<div class="content" id="content">
+					<transition name="move" mode="out-in"><router-view></router-view></transition>
+				</div>
+			</div>
+		</section>
 		<footer>
 			<p class="Disclaimer">pansheng.me 内容版权所有，同时保留所有权利。</p>
 			<p>
@@ -27,7 +37,6 @@
 <script>
     import vHead from './Header.vue';
     import vSidebar from './Sidebar.vue';
-	
     export default {
 		data(){
 			return {
@@ -35,7 +44,8 @@
 			}
 		},
         components:{
-            vHead, vSidebar
+            vHead,
+			vSidebar
         },
         mounted() {
 		var canvas = document.querySelector('canvas'),
@@ -185,10 +195,36 @@
     }
 </script>
 <style   lang="less" scoped>
+.canvas{
+	position: absolute;
+    z-index: -1;
+}
 .wrapper{
+	.main-content{
+		.main-content-div{
+			.main-content-sw{
+				background: url(../../../static/img/tooplate_middle.png) repeat-y center;
+				margin-bottom: 20px;
+				padding: 0px 0px 20px 17px;
+				.wrapper-blog{
+					margin-left: 110px;
+    				width: 76%;
+					h1{
+						color: #fff;
+						font-size: 34px;
+						margin-bottom: 35px;
+						margin-top: 20px;
+					}
+					p{
+						color: #ccc;
+    					font-size: 18px;
+					}
+				}
+			}
+		}
+	}
 	.header{
 		display: block;
-		position: absolute;
 		left: 0;
 		top: 0;
 		bottom: 0;

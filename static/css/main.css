@@ -24,17 +24,15 @@ a {
 }
 
 .content {
-    position: absolute;
-    top: 200px;
-    width: auto;
     box-sizing: border-box;
     overflow-y: scroll;
     background-color: #fff;
-    width: 983px;
+    max-width: 980px;
     padding: 27px 27px 10px 27px;
     margin-bottom: 200px;
     border-radius: 8px;
-    max-height: 1350px;
+    max-height: 1235px;
+    margin-left: 56px;
 }
 
 .content::-webkit-scrollbar{

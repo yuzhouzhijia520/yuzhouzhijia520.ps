@@ -8,7 +8,7 @@
             text-color="#fff"
             active-text-color="#ffd04b"
             unique-opened router>
-                 <template v-for='item in items'>
+            <template v-for='item in items'>
                 <template v-if="item.subs">
                     <el-submenu :index="item.index" class="menuitemP">
                         <template slot="title"><i :class="item.icon"></i>{{ item.title }}</template>
@@ -21,12 +21,13 @@
                         <i :class="item.icon"></i>{{ item.title }}
                     </el-menu-item>
                 </template> 
-                </template>
-                </el-menu>
+            </template>
+        </el-menu>
     </div>
 </template>
 
 <script>
+
     export default {
         data() {
             return {
@@ -118,9 +119,6 @@
 
 <style lang="less"  >
     .sidebar{ 
-        display: block;
-        position: absolute;
-        top: 130px;
         background: url(../../../static/img/tooplate_menu_bg.png) no-repeat;
         padding: 3px 39px;
         width: 994px;

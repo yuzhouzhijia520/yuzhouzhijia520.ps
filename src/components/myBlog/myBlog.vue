@@ -1,19 +1,19 @@
 <template>
-    <div class="myBlog">
-          <el-collapse v-model="activeName" accordion>
-            <el-collapse-item class="item titleBlog" title="1、前端知识体系汇总" name="1">
-                <p id="PSmarkdownText"></p>
-                <div v-html='PSmarkdownText1' class='markdown-body'></div>
-            </el-collapse-item>
-            <el-collapse-item class="titleBlog" title="2、Blog" name="2">
-                <div v-html='PSmarkdownText2' class='markdown-body'></div>
-            </el-collapse-item>
-             <el-collapse-item class="titleBlog" title="3、个人服务器部署" name="3">
-                <div v-html='PSmarkdownText3' class='markdown-body'></div>
-            </el-collapse-item>
-        </el-collapse>
+        <div class="myBlog">
+            <el-collapse v-model="activeName" accordion>
+                <el-collapse-item class="item titleBlog" title="1、前端知识体系汇总" name="1">
+                    <p id="PSmarkdownText"></p>
+                    <div v-html='PSmarkdownText1' class='markdown-body'></div>
+                </el-collapse-item>
+                <el-collapse-item class="titleBlog" title="2、Blog" name="2">
+                    <div v-html='PSmarkdownText2' class='markdown-body'></div>
+                </el-collapse-item>
+                <el-collapse-item class="titleBlog" title="3、个人服务器部署" name="3">
+                    <div v-html='PSmarkdownText3' class='markdown-body'></div>
+                </el-collapse-item>
+            </el-collapse>
 
-    </div>
+        </div>
 </template>
 
 <script>
